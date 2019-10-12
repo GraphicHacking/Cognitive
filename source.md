@@ -834,21 +834,21 @@ H:
 H:
 
 ## LAURA SANTOS EXAMPLES
+* Brightness
+* Motion
 
-### EXAMPLE1
-
+V:
+## LAURA SANTOS EXAMPLES
+### Brightness
 <figure>
     <div id='mysketch_id'></div>
-    <figcaption>mySketch</figcaption>
+    <figcaption>mySketch2</figcaption>
 </figure>
 
 V:
-
 ## LAURA SANTOS EXAMPLES
-
-### EXAMPLE2
-
+### Motion
 <figure>
-    <img height='400' src='fig/chauvethorses.jpg' />
-    <figcaption><a href="http://en.wikipedia.org/wiki/Chauvet_Cave">Chauvet painting</a></figcaption>
+    <div id='wagonWheel_id'></div>
+    Wagon Wheel Illusion
 </figure>
