@@ -829,3 +829,26 @@ H:
 * [Simulation argument](https://www.simulation-argument.com/)
 * [You are a Simulation & Physics Can Prove It: George Smoot](https://www.youtube.com/watch?v=Chfoo9NBEow&t=14s)
 * [Do we see reality as it is? | Donald Hoffman](https://www.youtube.com/watch?v=oYp5XuGYqqY)
+
+
+H:
+
+## LAURA SANTOS EXAMPLES
+
+### EXAMPLE1
+
+<figure>
+    <div id='mysketch_id'></div>
+    <figcaption>mySketch</figcaption>
+</figure>
+
+V:
+
+## LAURA SANTOS EXAMPLES
+
+### EXAMPLE2
+
+<figure>
+    <img height='400' src='fig/chauvethorses.jpg' />
+    <figcaption><a href="http://en.wikipedia.org/wiki/Chauvet_Cave">Chauvet painting</a></figcaption>
+</figure>
