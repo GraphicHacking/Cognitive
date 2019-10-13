@@ -850,5 +850,13 @@ V:
 ### Motion
 <figure>
     <div id='motionCircles_id'></div>
-    Wagon Wheel Illusion
+    Motion Circles Illusion
+</figure>
+
+V:
+## LAURA SANTOS EXAMPLES
+### Curved Line
+<figure>
+    <div id='curvedLine_id'></div>
+    Curved Line Illusion
 </figure>
