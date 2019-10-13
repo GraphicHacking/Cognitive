@@ -849,6 +849,6 @@ V:
 ## LAURA SANTOS EXAMPLES
 ### Motion
 <figure>
-    <div id='wagonWheel_id'></div>
+    <div id='motionCircles_id'></div>
     Wagon Wheel Illusion
 </figure>

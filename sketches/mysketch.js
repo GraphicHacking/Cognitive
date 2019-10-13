@@ -1,23 +1,17 @@
-
-var sketch1 = function(p){
+var sketch = function(p){
 	p.setup = function(){
 		p.createCanvas(400,400);
 	};
 	var c = 0;
 	var fw = 120 , fh = 360 , fx = 60 , fy= 20; 
 	var gw = 20; 
-	p.draw  = function(){
-		p.background(255);
-		p.setGrill();
-		p.setFigure();
-	};
 
-	function setGrill(){
-		fill(c);
-		noStroke();
+	p.setGrill = function(){
+		p.fill(c);
+		p.noStroke();
 		for ( let i = 20 ; i < 380 ; i += 40){
-			rect(20,i,360,gw); }
-	};
+			p.rect(20,i,360,gw); }
+	};  
 
 	p.mouseClicked = function(){
 		if (c == 0) c = 255; 
@@ -25,17 +19,23 @@ var sketch1 = function(p){
 	};
 
 	p.setFigure = function(){
-		fill(226, 164, 245);
-		noStroke();
-		rect(fx,fy,fw,fh);
-		rect(fx + 160,fy,fw,fh);
+		p.fill(226, 164, 245);
+		p.noStroke();
+		p.rect(fx,fy,fw,fh);
+		p.rect(fx + 160,fy,fw,fh);
 		if ( c == 0)
 		for ( let i = fy ; i < fy + fh ; i += 40){
-			fill(0);
-			rect(fx,i,fw,20);
-			fill(255);
-			rect(fx+160,i+20,fw,20); 
+			p.fill(0);
+			p.rect(fx,i,fw,20);
+			p.fill(255);
+			p.rect(fx+160,i+20,fw,20); 
 		};
+	};
+
+	p.draw  = function(){
+		p.background(255);
+		p.setGrill();
+		p.setFigure();
 	};
 };
 
