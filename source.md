@@ -860,3 +860,26 @@ V:
     <div id='curvedLine_id'></div>
     Curved Line Illusion
 </figure>
+
+H:
+
+## JS CHAVES EXAMPLES
+* Brightness
+* Motion
+
+V:
+## JS CHAVES EXAMPLES
+### Brightness
+<figure>
+    <div id='moving_rectangles_id'></div>
+    <figcaption>mySketch2</figcaption>
+</figure>
+
+V:
+## JS CHAVES
+### Motion
+<figure>
+    <div id='rotating_crosses_id'></div>
+    Motion Circles Illusion
+</figure>
+
